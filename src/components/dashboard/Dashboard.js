@@ -41,5 +41,4 @@ export default compose(
     firestoreConnect([
         { collection: 'todos', orderBy: ['createdAt', 'desc'] } //replace collection and orderBy as desired
     ])
-)
-    (Dashboard)
+)(Dashboard)
